@@ -36,6 +36,8 @@ To run the demo, the following additional hardware are required:
 
 ## Running the Application
 
-1. Open the example project in MPLAB X and program the code to SAM D21 on the Curiosity Nano evaluation board.
-2. Observe the sawtooth voltage output in the Picoscope.
+1. Open the example project in MPLAB X and program the code to SAMD21 on the Curiosity Nano evaluation board.
+2. Run a preferred terminal console to show the application splash screen.
+3. Observe the sawtooth voltage output in the Picoscope.
+4. Modify the period settings of Timer 3 to vary the frequency. Don't forget to generate and build the project before downloading the code onto the SAMD21 Curiosity Nano.
 

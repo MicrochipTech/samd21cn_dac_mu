@@ -28,7 +28,7 @@ To run the demo, the following additional hardware are required:
 
 ### Configuring the Hardware
 
-1. Tap the PicoScope probe to pin PA2 (Vout) and GND (Ground).
+1. Tap the PicoScope probe to pin PA2 (Vout) and GND (Ground). **Optional: Use a Digital Multimeter with Vdc probe at PA2 and ground probe at GND
 
 ![alt text for screen readers](images/HardwareSetupImage.jpg "Configuring the hardware")
 ![alt text for screen readers](images/HardwareSetupScope.jpg "Configuring the hardware")
@@ -38,6 +38,6 @@ To run the demo, the following additional hardware are required:
 ## Running the Application
 
 1. Open the example project in MPLAB X and program the code to SAM D21 on the Curiosity Nano evaluation board.
-2. In a connected serial terminal, enter an integer ranging from 0 to 1023.
-3. Observe the changes of the output voltage in the PicoScope.
+2. Run a preferred terminal console program to see the application splash screen and instructions. Enter an integer ranging from 0 to 1023.
+3. Observe the changes of the output voltage on the PicoScope or DMM.
 

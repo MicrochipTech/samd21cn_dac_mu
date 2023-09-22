@@ -2,7 +2,7 @@
 
 ## Description
 This project demonstrates how to configure the DAC (Digital to Analog Converter) peripheral of the ATSAMD21.
-The user can change the output waveform's frequency by entering an integer between 0 and 1023.
+The user can test the DAC conversion accuracy and correctness by entering an integer between 0 and 1023, and measuring the voltage generated.
 
 ## Software Used
 
@@ -39,5 +39,5 @@ To run the demo, the following additional hardware are required:
 
 1. Open the example project in MPLAB X and program the code to SAM D21 on the Curiosity Nano evaluation board.
 2. In a connected serial terminal, enter an integer ranging from 0 to 1023.
-3. Observe the changes in the frequency of the output waveform in the PicoScope.
+3. Observe the changes of the output voltage in the PicoScope.
 
